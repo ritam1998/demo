@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>TODO LOGS</title>
+  <link rel="stylesheet" href="/Admin/css/bootstrap.css">
+  <link rel="stylesheet" href="/Admin/css/styles.css">
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12" id="header-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-12" id="header">
+              <h2>TODO LOGS</h2>
+            </div>
+            <div class="col-12" id="search-wrapper">
+              <input type="text" placeholder="Search your Logs!" onkeyup="searchCafe()" id="search">
+            </div>
+            <div class="text-center col-md-12">
+              <button type="button" class="btn btn-danger" style="margin-top: 50px" onclick="logout()">Log Out</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12" id="table-wrapper">
+            <table>
+              <thead>
+                <tr class="table100-head">
+                  <th class="column1">S No</th>
+                  <th class="column2">Name</th>
+                  <th class="column3">Phone-No</th>
+                  <th class="column10">Email</th>
+                </tr>
+              </thead>
+              <tbody id="view">
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="/Admin/js/fetch.js"></script>
+</body>
+
+<!-- <script src="todoLogs.js"></script> -->
+
+</html>

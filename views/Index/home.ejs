@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Home | MyToDo</title>
+
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/Index/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/Index/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/Index/css/animate.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/Index/css/lightbox.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/Index/css/main.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/Index/css/responsive.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/Index/css/registerStyle.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/Index/css/login.css">
+    <!--===============================================================================================-->
+
+    <!-- link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" -->
+
+    <!--[if lt IE 9]>
+	    <script src="js/html5shiv.js"></script>
+	    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" type="image/png"
+        href="https://cdn.icon-icons.com/icons2/1526/PNG/512/checklist_106575.png" />
+    <!--===============================================================================================-->
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="144x144"
+        href="/Index/Aimages/ico/apple-touch-icon-144-precomposed.png" />
+    <!--===============================================================================================-->
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="114x114"
+        href="/Index/images/ico/apple-touch-icon-114-precomposed.png" />
+    <!--===============================================================================================-->
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="72x72"
+        href="/Index/images/ico/apple-touch-icon-72-precomposed.png" />
+    <!--===============================================================================================-->
+    <link rel="apple-touch-icon-precomposed" type="image/png"
+        href="/Index/images/ico/apple-touch-icon-57-precomposed.png" />
+</head>
+<!--/head-->
+
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 overflow">
+                    <div class="social-icons pull-right">
+                        <ul class="nav nav-pills">
+                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href=""><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="#">
+                        <h1><img src="https://wearetodo.com/wp-content/uploads/2015/11/Todo-Logo.png" height="80px"
+                                width="210px" style="margin-top: 0px;" alt="logo"></h1>
+                    </a>
+
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li class="dropdown"><a href="#">Pages <i class="fa fa-angle-down"></i></a>
+                            <ul role="menu" class="sub-menu">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">About 2</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Contact us 2</a></li>
+                                <li><a href="#">404 error</a></li>
+                                <li><a href="#">Coming Soon</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">Blog <i class="fa fa-angle-down"></i></a>
+                            <ul role="menu" class="sub-menu">
+                                <li><a href="#">Blog Default</a></li>
+                                <li><a href="#">Timeline Blog</a></li>
+                                <li><a href="#">2 Columns + Right Sidebar</a></li>
+                                <li><a href="#">1 Column + Left Sidebar</a></li>
+                                <li><a href="#">Blog Masonary</a></li>
+                                <li><a href="#">Blog Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">Portfolio <i class="fa fa-angle-down"></i></a>
+                            <ul role="menu" class="sub-menu">
+                                <li><a href="#">Portfolio Default</a></li>
+                                <li><a href="#">Isotope 3 Columns + Right Sidebar</a></li>
+                                <li><a href="#">3 Columns + Right Sidebar</a></li>
+                                <li><a href="#">3 Columns + Left Sidebar</a></li>
+                                <li><a href="#">2 Columns</a></li>
+                                <li><a href="#">Portfolio Details</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="" data-toggle="modal" data-target="#login">SIGN IN</a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <form role="form">
+                        <i class="fa fa-search"></i>
+                        <div class="field-toggle">
+                            <input type="text" class="search-form" autocomplete="off" placeholder="Search">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--/#header-->
+
+    <section id="home-slider">
+        <div class="container">
+            <div class="row">
+                <div class="main-slider">
+                    <div class="slide-text">
+                        <h1>We Are Creative Nerds</h1>
+                        <p>Boudin doner frankfurter pig. Cow shank bresaola pork loin tri-tip tongue venison pork belly
+                            meatloaf short loin landjaeger biltong beef ribs shankle chicken andouille.</p>
+
+                        <!--===============================================================================================-->
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-common" data-toggle="modal" data-target="#exampleModal"
+                            data-whatever="@mdo">SIGN UP</button>
+
+
+                        <!--===============================================================================================-->
+                    </div>
+                    <img src="/Index/images/home/slider/hill.png" class="slider-hill" alt="slider image">
+                    <img src="/Index/images/home/slider/house.png" class="slider-house" alt="slider image">
+                    <img src="/Index/images/home/slider/sun.png" class="slider-sun" alt="slider image">
+                    <img src="/Index/images/home/slider/birds1.png" class="slider-birds1" alt="slider image">
+                    <img src="/Index/images/home/slider/birds2.png" class="slider-birds2" alt="slider image">
+                </div>
+            </div>
+            <!--===============================================================================================-->
+
+            <!-- Modal Sign up-->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="card-title text-center">SIGN UP</h2>
+                            <!-- <h5 class="modal-title" id="exampleModalLabel">New message</h5> -->
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-signin">
+                                <div class="form-label-group">
+                                    <input type="text" id="inputName" class="form-control" placeholder="Name"
+                                        required autofocus />
+                                    <label for="inputUserame">Full name</label>
+                                </div>
+                                <div class="form-label-group">
+                                    <input type="text" id="inputUserame" class="form-control" placeholder="Username"
+                                        required autofocus />
+                                    <label for="inputUserame">Username</label>
+                                </div>
+
+                                <div class="form-label-group">
+                                    <input type="email" id="inputEmail" class="form-control" placeholder="Email address"
+                                        required />
+                                    <label for="inputEmail">Email address</label>
+                                </div>
+
+                                <hr>
+
+                                <div class="form-label-group">
+                                    <input type="text" id="phone" class="form-control" placeholder="Password"
+                                        required />
+                                    <label for="inputPassword">Phone No</label>
+                                </div>
+
+                                <div class="form-label-group">
+                                    <input type="password" id="password" class="form-control" placeholder="Password"
+                                        required />
+                                    <label for="inputConfirmPassword">Password</label>
+                                </div>
+                                <hr class="my-4">
+                                <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i
+                                        class="fab fa-google mr-2"></i> Sign up with Google</button>
+                                <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i
+                                        class="fab fa-facebook-f mr-2"></i> Sign up with Facebook</button>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                            <button class="btn btn-lg btn-primary btn-block text-uppercase " type="submit" id="save"
+                                onclick="register()" aria-level="close">Create My Account</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--===============================================================================================-->
+            <!-- Modal Sign In -->
+            <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="basicModal"
+                aria-hidden="true">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title text-center" id="myModalLabel">SIGN IN </h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card card-signin my-5">
+                                <div class="card-body">
+                                    <!-- <h5 class="card-title text-center">Sign In</h5> -->
+                                    <div class="form-signin">
+                                        <div class="form-label-group">
+                                            <input type="email" id="emailLogin" class="form-control"
+                                                placeholder="Email address" required autofocus>
+                                            <label for="inputEmail">Email address</label>
+                                        </div>
+
+                                        <div class="form-label-group">
+                                            <input type="password" id="passwordLogin" class="form-control"
+                                                placeholder="Password" required>
+                                            <label for="inputPassword">Password</label>
+                                        </div>
+
+                                        <!-- <div class="custom-control custom-checkbox mb-3">
+                                            <!-- <input type="checkbox" class="custom-control-input" id="customCheck1"> 
+                                            <a href="#" class="" data-toggle="modal" data-target="#update">Forgot
+                                                    password ?</a>
+
+                                        </div> -->
+                                        <div class="form-label-group">
+                                            <label><a href="#" class="" for="inputPassword" data-toggle="modal"
+                                                    data-target="#update">Forget
+                                                    Password ?</a></label>
+                                        </div>
+                                        <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit"
+                                            id="save" onclick="login()">Sign in</button>
+                                        <hr class="my-4">
+                                        <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i
+                                                class="fab fa-google mr-2"></i> Sign in with Google</button>
+                                        <button class="btn btn-lg btn-facebook btn-block text-uppercase"
+                                            type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign in with
+                                            Facebook</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--===============================================================================================-->
+            <!-- Modal update password-->
+            <div class="modal fade" id="update" tabindex="-1" role="dialog" aria-labelledby="basicModal"
+                aria-hidden="true">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title text-center" id="myModalLabel">Forget Password </h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card card-signin my-5">
+                                <div class="card-body">
+                                    <!-- <h5 class="card-title text-center">Sign In</h5> -->
+                                    <div class="form-signin">
+                                        <div class="form-label-group">
+                                            <input type="email" id="emailUpdate" class="form-control"
+                                                placeholder="Email address" required autofocus>
+                                            <label for="inputEmail">Email address</label>
+                                        </div>
+
+                                        <div class="form-label-group">
+                                            <input type="password" id="passwordUpdate" class="form-control"
+                                                placeholder="Enter new Password" required>
+                                            <label for="inputPassword">Re-Type New Password</label>
+                                        </div>
+
+                                        <!-- <div class="custom-control custom-checkbox mb-3">
+                                            <!-- <input type="checkbox" class="custom-control-input" id="customCheck1"> 
+                                            <a href="#" class="" data-toggle="modal" data-target="#update">Forgot
+                                                    password ?</a>
+
+                                        </div> -->
+                                        <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit"
+                                            name="save" id="save" onclick="update()" data-dismiss="modal">Save</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
+    </section>
+    <!--/#home-slider-->
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="https://demo.themeum.com/html/triangle/1.1/images/home/icon1.png" alt="">
+                        </div>
+                        <h2>Incredibly Responsive</h2>
+                        <p>Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin
+                            chicken ground round.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                            <img src="https://demo.themeum.com/html/triangle/1.1/images/home/icon2.png" alt="">
+                        </div>
+                        <h2>Superior Typography</h2>
+                        <p>Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef
+                            brisket pancetta venison.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                            <img src="https://demo.themeum.com/html/triangle/1.1/images/home/icon3.png" alt="">
+                        </div>
+                        <h2>Swift Page Builder</h2>
+                        <p>Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola
+                            tenderloin bone pork kevin shankle.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/#services-->
+
+    <section id="action" class="responsive">
+        <div class="vertical-center">
+            <div class="container">
+                <div class="row">
+                    <div class="action take-tour">
+                        <div class="col-sm-7 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <h1 class="title">Triangle Corporate Template</h1>
+                            <p>A responsive, retina-ready &amp; wide multipurpose template.</p>
+                        </div>
+                        <div class="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms"
+                            data-wow-delay="300ms">
+                            <div class="tour-button">
+                                <a href="#" class="btn btn-common">TAKE THE TOUR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/#action-->
+
+    <section id="features">
+        <div class="container">
+            <div class="row">
+                <div class="single-features">
+                    <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <img src="https://demo.themeum.com/html/triangle/1.1/images/home/image1.png"
+                            class="img-responsive" alt="">
+                    </div>
+                    <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <h2>Experienced and Enthusiastic</h2>
+                        <P>Pork belly leberkas cow short ribs capicola pork loin. Doner fatback frankfurter jerky
+                            meatball pastrami bacon tail sausage. Turkey fatback ball tip, tri-tip tenderloin drumstick
+                            salami strip steak.</P>
+                    </div>
+                </div>
+                <div class="single-features">
+                    <div class="col-sm-6 col-sm-offset-1 align-right wow fadeInLeft" data-wow-duration="500ms"
+                        data-wow-delay="300ms">
+                        <h2>Built for the Responsive Web</h2>
+                        <P>Mollit eiusmod id chuck turducken laboris meatloaf pork loin tenderloin swine. Pancetta
+                            excepteur fugiat strip steak tri-tip. Swine salami eiusmod sint, ex id venison non. Fugiat
+                            ea jowl cillum meatloaf.</P>
+                    </div>
+                    <div class="col-sm-5 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <img src="https://demo.themeum.com/html/triangle/1.1/images/home/image2.png"
+                            class="img-responsive" alt="">
+                    </div>
+                </div>
+                <div class="single-features">
+                    <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <img src="https://demo.themeum.com/html/triangle/1.1/images/home/image3.png"
+                            class="img-responsive" alt="">
+                    </div>
+                    <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <h2>Experienced and Enthusiastic</h2>
+                        <P>Ut officia cupidatat anim excepteur fugiat cillum ea occaecat rump pork chop tempor. Ut
+                            tenderloin veniam commodo. Shankle aliquip short ribs, chicken eiusmod exercitation shank
+                            landjaeger spare ribs corned beef.</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/#features-->
+
+    <section id="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="clients text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <p><img src="/Index/images/home/clients.png" class="img-responsive" alt=""></p>
+                        <h1 class="title">Happy Clients</h1>
+                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim
+                            veniam, quis nostrud </p>
+                    </div>
+                    <div class="clients-logo wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="col-xs-3 col-sm-2">
+                            <a href="#"><img src="https://demo.themeum.com/html/triangle/1.1/images/home/client1.png"
+                                    class="img-responsive" alt=""></a>
+                        </div>
+                        <div class="col-xs-3 col-sm-2">
+                            <a href="#"><img src="https://demo.themeum.com/html/triangle/1.1/images/home/client2.png"
+                                    class="img-responsive" alt=""></a>
+                        </div>
+                        <div class="col-xs-3 col-sm-2">
+                            <a href="#"><img src="https://demo.themeum.com/html/triangle/1.1/images/home/client3.png"
+                                    class="img-responsive" alt=""></a>
+                        </div>
+                        <div class="col-xs-3 col-sm-2">
+                            <a href="#"><img src="https://demo.themeum.com/html/triangle/1.1/images/home/client4.png"
+                                    class="img-responsive" alt=""></a>
+                        </div>
+                        <div class="col-xs-3 col-sm-2">
+                            <a href="#"><img src="https://demo.themeum.com/html/triangle/1.1/images/home/client5.png"
+                                    class="img-responsive" alt=""></a>
+                        </div>
+                        <div class="col-xs-3 col-sm-2">
+                            <a href="#"><img src="https://demo.themeum.com/html/triangle/1.1/images/home/client6.png"
+                                    class="img-responsive" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/#clients-->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center bottom-separator">
+                    <img src="/Index/images/home/under.png" class="img-responsive inline" alt="">
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="testimonial bottom">
+                        <h2>Testimonial</h2>
+                        <div class="media">
+                            <div class="pull-left">
+                                <a href="#"><img
+                                        src="https://demo.themeum.com/html/triangle/1.1/images/home/profile1.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="media-body">
+                                <blockquote>Nisi commodo bresaola, leberkas venison eiusmod bacon occaecat labore tail.
+                                </blockquote>
+                                <h3><a href="#">- Jhon Kalis</a></h3>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="pull-left">
+                                <a href="#"><img
+                                        src="https://demo.themeum.com/html/triangle/1.1/images/home/profile2.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="media-body">
+                                <blockquote>Capicola nisi flank sed minim sunt aliqua rump pancetta leberkas venison
+                                    eiusmod.</blockquote>
+                                <h3><a href="">- Abraham Josef</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="contact-info bottom">
+                        <h2>Contacts</h2>
+                        <address>
+                            E-mail: <a href="mailto:someone@example.com">email@email.com</a> <br>
+                            Phone: +1 (123) 456 7890 <br>
+                            Fax: +1 (123) 456 7891 <br>
+                        </address>
+
+                        <h2>Address</h2>
+                        <address>
+                            Unit C2, St.Vincent's Trading Est., <br>
+                            Feeder Road, <br>
+                            Bristol, BS2 0UY <br>
+                            United Kingdom <br>
+                        </address>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="contact-form bottom">
+                        <h2>Send a message</h2>
+                        <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" required="required"
+                                    placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" class="form-control" required="required"
+                                    placeholder="Email Id">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" id="message" required="required" class="form-control" rows="8"
+                                    placeholder="Your text here"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" name="submit" class="btn btn-submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="copyright-text text-center">
+                        <p>&copy; Your Company 2014. All Rights Reserved.</p>
+                        <p>Designed by <a target="_blank" href="http://www.themeum.com">Themeum</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/#footer-->
+
+    <script type="text/javascript" src="/Index/js/jquery.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="/Index/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="/Index/js/lightbox.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="/Index/js/wow.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="/Index/js/main.js"></script>
+    <!--===============================================================================================-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!--===============================================================================================-->
+    <!-- <script type="text/javascript">
+
+        $('#exampleModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget) // Button that triggered the modal
+            // var recipient = button.data('whatever') // Extract info from data-* attributes
+            // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+            // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+            // var modal = $(this)
+            // modal.find('.modal-title').text('New message to ' + recipient)
+            // modal.find('.modal-body input').val(recipient)
+        })
+
+    </script> -->
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="/Index/js/register.js"></script>
+    <!--===============================================================================================-->
+    <!-- <script type="text/javascript">
+        var options = {
+            'backdrop': 'static'
+        }
+        $('#login').modal(options);
+    </script> -->
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="/Index/js/login.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="/Index/js/update.js"></script>
+</body>
+
+</html>
